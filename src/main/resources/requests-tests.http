@@ -1,0 +1,31 @@
+GET http://localhost:8080/hello
+###
+
+GET http://localhost:8080/withParams?param=jesus
+###
+
+GET http://localhost:8080/withPathVariable/12
+
+###
+
+POST http://localhost:8080/echo
+Content-Type: application/json
+
+{"key":"value"}
+###
+
+POST http://localhost:8080/echo
+Content-Type: application/xml
+
+<artifactId> spring-boot-maven-plugin </artifactId>
+###
+
+PUT http://localhost:8080/put
+###
+
+GET http://localhost:8080/cookie
+
+###
+
+
+
