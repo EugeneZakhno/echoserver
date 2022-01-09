@@ -50,11 +50,6 @@ public class MainController {
         }
     }
 
-    @PostMapping(value = "/echoxml", produces = "application/xml")
-    public String echoXml(@RequestBody String xmlText) {
-        return xmlText;
-    }
-
     @PutMapping(value = "/put")
     public String echoPut() {
         return "";
